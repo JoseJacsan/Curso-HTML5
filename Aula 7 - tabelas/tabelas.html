@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <title>Tabelas</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            table, th, td {
+                border: 1px solid #000;
+            }
+            th, td {
+                padding: 10px;
+                text-align: center;
+                color: burlywood;
+            }
+
+            .nome {
+                background-color: #f2f2;
+            }
+            .email {
+                background-color: blueviolet;
+            }
+            .telefone {
+                background-color: black;
+            }
+            .cargo {
+                background-color: yellow;
+            }
+        </style>
+
+    </head>
+
+
+    <body>
+        <h1>Tabelas</h1>
+            <table>
+                <caption>Cadastro de Clientes</caption>
+
+                    <colgroup>
+                        <col class="nome">
+                        <col class="email">
+                        <col class="telefone">
+                        <col class="cargo">
+                    </colgroup>
+
+
+
+
+                    <tr>
+                        <th> Nome: </th>
+                        <th> E-mail </th>
+                        <th> Telefone </th>
+                        <th> Cargo </th>
+
+                    </tr>
+
+                    <tr>
+                        <td> José </td>
+                        <td> jose@email.com </td>
+                        <td> (84) 1234-546789 </td>
+                        <td rowspan="3"> Analista de Sistemas </td>
+                    </tr>
+
+                    <tr>
+                        <td> Jacsan </td>
+                        <td> jacsan@gmail.com </td>
+                        <td> (86) 15562-9889 </td>
+                    </tr>
+
+                    <tr>
+                        <td> Sousa </td>
+                        <td> sousa@hotmail.com </td>
+                        <td> (55) 5554-56235 </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4"> Total: 3 Clientes </td>
+                    
+                    </tr>
+
+
+
+            </table>
+
+    </body>
+
+
+
+
+</html>
